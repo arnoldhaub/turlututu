@@ -1,0 +1,152 @@
+html {
+    background-color: white;
+    color: white;
+    width: 100%; 
+    margin: auto;
+}
+
+/* MENU */
+menu{
+    background-color: #333333;
+    text-align: left;
+    padding-left: 50px;
+    
+    align-items: center;
+    display: flex;
+}
+menu p {
+    margin: 0;
+    display: inline;
+    margin-right: 20px;
+}
+
+menu p:last-child {
+    position: absolute;
+    right: 20px;
+}
+menu img:last-child {
+    padding-right: 10px;
+}
+
+/* HEAD */
+header{
+    background-color: #1e93cc;
+}
+.header {
+    display: flex;
+}
+.man {
+    
+    flex: 20%;
+    padding-left: 15px;
+}
+.info {
+    flex: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+.info button{
+    background-color: #165882;
+    border: 2px solid white;
+    height: 60px;
+    width: 220px;
+    font-weight:500;
+}
+
+/* MAIN / CONTENT */
+
+article p{
+    color: #c1dee0;
+}
+ /* Première section */
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+section:nth-child(2){
+    background-color: #1e93cc;
+    border: 1px #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px;
+}
+
+section:nth-child(2) article{
+
+    flex: 50%;
+}
+
+ /* Deuxième section */
+
+section:nth-child(3) h1 {
+    color: #6f6f78;
+}
+
+.sponsors {
+    background-color: #eeeeee;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    color: #aba9a8;
+    justify-content: center;
+
+}
+
+.sponsors img{
+    max-width: 100%;
+}
+
+ /* Troisème section : buttons */
+
+ .misc {
+     min-height: 200px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+button{
+    background-color: #165882;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    height: 50px;
+    width: 180px;
+}
+button:last-child{
+    background-color: #e99002;
+}
+
+ /* Footer */
+
+footer{
+    background-color: #222222;
+    min-height: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 10px;
+    font-size: smaller;
+
+}
+footer p {
+    padding-right: 20px;
+    padding-left: 10px;
+    border-left: 1px dashed grey;
+}
+
+footer p:first-child {
+    border-left: 0px;
+}
+
+footer p:last-child {
+    position: absolute;
+    right: 20px;
+    border: 0;
+}
